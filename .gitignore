@@ -1,0 +1,12 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.env
+
+# Generated campaign media and paid API artifacts
+campaigns/*/audio/
+campaigns/*/frames/
+campaigns/*/output/*.mp4
+campaigns/*/output/validation-report.json
+campaigns/*/assets/scenes/*.png
+campaigns/*/assets/character/*.png
